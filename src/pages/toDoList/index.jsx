@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import data from '../../dummyData';
 
-import { ICON_ADD_PNG } from '../../assests/images';
 import {
   AddTaskInput,
   CustomInput,
@@ -10,13 +8,13 @@ import {
   Header,
   TaskListContainer
 } from '../../components';
-
-import './index.css';
+import { ICON_ADD_PNG } from '../../assests/images';
 import { useDebounce } from '../../hooks';
 
+import './index.css';
+
 const ToDoList = () => {
-  // const [taskList, setTaskList] = useState([]);
-  const [taskList, setTaskList] = useState(data || []);
+  const [taskList, setTaskList] = useState([]);
   const [tempTaskList, setTempTaskList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [updatedTaskDesc, setUpdateTaskDesc] = useState('');

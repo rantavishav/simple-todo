@@ -13,6 +13,7 @@ const Pagination = (props) => {
     pageSize
   });
 
+  // don't render pagination if there is only one page
   if (currentPage === 0 || paginationRange.length < 2) {
     return null;
   }
@@ -25,7 +26,7 @@ const Pagination = (props) => {
     onPageChange(currentPage - 1);
   };
 
-  let lastPage = paginationRange[paginationRange.length - 1];
+  const lastPage = paginationRange[paginationRange.length - 1];
   return (
     <ul className="pagination-container pagination-bar">
       <li className={`pagination-item ${currentPage === 1 ? 'disabled' : ''}`} onClick={onPrevious}>

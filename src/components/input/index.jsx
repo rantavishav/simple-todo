@@ -7,19 +7,15 @@ export const CustomInput = ({
   type = 'text',
   value = '',
   onChange = () => null
-}) => {
-  return (
-    <>
-      <input
-        className="todo-input"
-        type={type}
-        placeholder={placeholder}
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-      />
-    </>
-  );
-};
+}) => (
+  <input
+    className="todo-input"
+    type={type}
+    placeholder={placeholder}
+    value={value}
+    onChange={(e) => onChange(e.target.value)}
+  />
+);
 
 export const AddTaskInput = ({
   className = '',

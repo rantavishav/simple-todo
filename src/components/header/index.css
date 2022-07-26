@@ -1,0 +1,17 @@
+/* header */
+.todo-header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.todo-header-title {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 15px;
+}

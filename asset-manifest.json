@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/simple-todo/static/css/main.2509a1e2.css",
-    "main.js": "/simple-todo/static/js/main.c6bdee9b.js",
+    "main.js": "/simple-todo/static/js/main.4b3ae60a.js",
     "static/js/787.2559a542.chunk.js": "/simple-todo/static/js/787.2559a542.chunk.js",
     "static/media/bg-img.jpg": "/simple-todo/static/media/bg-img.73e47dbb723ebc772ef0.jpg",
     "index.html": "/simple-todo/index.html",
     "static/media/icon-cross.svg": "/simple-todo/static/media/icon-cross.6ee81d30b75cab19d6f7314624fcc4d6.svg",
     "static/media/icon-check.svg": "/simple-todo/static/media/icon-check.a8fb15d0278c8e312df5fc8364fef863.svg",
     "main.2509a1e2.css.map": "/simple-todo/static/css/main.2509a1e2.css.map",
-    "main.c6bdee9b.js.map": "/simple-todo/static/js/main.c6bdee9b.js.map",
+    "main.4b3ae60a.js.map": "/simple-todo/static/js/main.4b3ae60a.js.map",
     "787.2559a542.chunk.js.map": "/simple-todo/static/js/787.2559a542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2509a1e2.css",
-    "static/js/main.c6bdee9b.js"
+    "static/js/main.4b3ae60a.js"
   ]
 }
